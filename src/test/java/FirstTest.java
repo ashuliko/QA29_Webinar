@@ -13,7 +13,7 @@ public class FirstTest {
     @BeforeClass
     public void setUp() {
         wd = new ChromeDriver();
-        wd.manage().window().maximize();
+         wd.manage().window().maximize();
         wd.get("http://google.com/");
     }
 
